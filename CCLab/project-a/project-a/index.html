@@ -1,0 +1,98 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>[ Felis Spacius ]</title>
+
+    <!-- allow special characters, including Arabic, Chinese, Korean, Japanese, etc. -->
+    <meta charset="UTF-8">
+    <!-- link the style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+    <script>
+        // prevent scrolling when spacebar and arrow keys are pressed.
+        window.addEventListener("keydown", function (e) { if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) { e.preventDefault(); } }, false);
+    </script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title-wrapper">
+        <h1 class="headline black">[ Felis Spacius ]</h1>
+    </div>
+
+    <!-- main content -->
+    <div id="main-wrapper">
+        <main>
+            <!-- This is where your p5 sketch will be appended and appear! -->
+        </main>
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Felis Spacius:</h3>
+                << /p>
+
+                    <h3 class="red">Discovered by / at:</h3>
+                    <p>Leena Chang, October 13th 2026</p>
+
+                    <h3 class="green">Family:</h3>
+                    <p>This creature was discovered in the depths of space where there are no other forms of life. It is
+                        a solitary animal that hates other organisms including humans. </p>
+            </div>
+            <div class="right">
+                <h3 class="green">Outer Space:</h3>
+                <p></p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>This creature feeds by absorbing particles through space. It is a flexible life form that can change
+                    shape when provoked. </p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>Eyes turn red when scared and angry.</li>
+                    <li>Flies at light speed.</li>
+                    <li>Immortal</li>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="one-column">
+            <p>
+                <span class="yellow">What we know so far about [ Felis Spacius ]?</span>
+                Felis Spacius heavily resembles a normal house cat on Earth with similar behavioral tendencies. So far
+                only one has been found in all of space. It is a very simple creature that constantly moves around in
+                space flying from solar system to solar system.
+                Our research shows that their may be a huge population of them that we have not discovered yet. Their
+                ability to morphe into different shapes allows them to hideout and not be found. A bite from one also
+                contains a deadly venom equivalent of a black mamba.
+
+                <br>
+                <span class="yellow">Guidelines for human interaction with this creature</span> Approach this creature
+                with caution. If disturbed suddenly this creature will attack with blood red eyes. Keep your distance
+                and it will continue to float around while in your presence.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by [Leena Chang] in [Fall26]</p>
+    </div>
+
+    <!-- Home: Link back to the ATLAS page-->
+    <div id="home">
+        <a href="https://cclab.work/atlas">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file here -->
+    <script src="sketch.js" type="text/javascript"> </script>
+</body>
+
+</html>
